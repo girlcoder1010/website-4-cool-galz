@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+<style>
+body {
+    font-family: 'Slabo 27px', serif;
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+*{
+  background-color:#FDFEFE;
+
+}
+</style>
+<style>
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #E1BEE7;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #FFECB3;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 3px solid #F06292;
+    border-top: none;
+
+}
+
+#title{
+  font-family: 'Chela One', cursive;
+}
+</style>
+</head>
+<body>
+<!--font for title-->
+  <link href="https://fonts.googleapis.com/css?family=Chela+One" rel="stylesheet">
+
+  <img src="pic2.png" style="width:440px;height:150px;">
+  <img src="spain.gif" style="width:350px;height:150px;">
+  <img src="pic2.png" style="width:440px;height:150px;">
+  <h1 id="title">Spain: A Travel Guide</h1>
+  <h2>Spain is a mix of old and new, modern and traditional. For the tourist, Spain means bullfights, massive cathedrals, world-class art, Muslim palaces, vibrant folk life, whitewashed villages, and bright sunshine. You'll find all those things, but the country's charm really lies in its people and their unique lifestyle. From the stirring sardana dance in Barcelona to the sizzling rat-a-tat-tat of flamenco in Sevilla, this country creates its own beat amid the heat. </h2>
+
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Places to Visit')">Places to Visit</button>
+  <button class="tablinks" onclick="openCity(event, 'Food')">Food</button>
+  <button class="tablinks" onclick="openCity(event, 'Activities')">Activities</button>
+</div>
+
+<div id="Places to Visit" class="tabcontent">
+  <h3>Places to Visit</h3>
+  <img src="barcelona.jpg" style="width:200px;height:250px;">
+  <img src="madrid.jpg" style="width:200px;height:250px;">
+  <img src="granada.jpg" style="width:200px;height:250px;">
+  <img src="san.jpg" style="width:200px;height:250px;">
+  <p>Barcelona bubbles with life in its narrow Barri Gòtic alleys, along the pedestrian boulevard called the Ramblas, in the funky bohemian quarter of El Born, and throughout the chic, grid-planned part of town called the Eixample. Barcelona's Old City is made for seeing on foot, full of winding lanes that emerge into secluded squares dotted with palm trees and ringed with cafés and boutiques. The waterfront bristles with life, overlooked by the parklike setting of Montjuïc. Across the city, the architecture is colorful, playful, and unique. In this vibrant city, locals still join hands and dance the sardana in front of the cathedral every weekend. Neighborhood festivals jam the events calendar. The cafés are filled by day, and people crowd the streets at night, pausing to fortify themselves with a perfectly composed bite of seafood and a drink at a tapas bar. Every hidden back lane provides shelter for an array of inviting shops. If you're in the mood to surrender to a city’s charms, let it be in Barcelona
+  </p>
+  <p>Dive headlong into the grandeur and intimate charm of Madrid. Feel the vibe in Puerta del Sol, the pulsing heart of modern Madrid and of Spain itself. The lavish Royal Palace rivals Versailles, the Prado has Europe's top collection of paintings, and nearby hangs Picasso's chilling masterpiece, Guernica. Retiro Park invites you to take a shady siesta and hopscotch through a mosaic of lovers, families, pets walking their masters, and expert bench-sitters. Save time for Madrid's elegant shops and people-friendly pedestrian zones. On Sundays, cheer for the bull at a bullfight or bargain like mad at a mega-size flea market. After dark, join the Madrileños who pack the streets for an evening paseo that can continue past midnight. Lively Madrid has enough street-singing, bar-hopping, and people-watching vitality to give any visitor a boost of youth.
+  </p>
+  <p>Granada seems to specialize in evocative history and good living. Settle down in the old center and explore monuments of the Moorish civilization and its conquest. Taste the treats of a North African-flavored culture that survives here today. This city has much to see, yet it reveals itself in unpredictable ways; it takes a poet to sort through and assemble the jumbled shards of Granada. Peer through the intricate lattice of a Moorish window. Hear water burbling unseen among the labyrinthine hedges of the Generalife Gardens. Listen to a flute trilling deep in the swirl of alleys around the cathedral. Don't be blind in Granada — open all your senses.
+  </p>
+  <p>Shimmering above the breathtaking Concha Bay, elegant and prosperous San Sebastián (Donostia in the Basque language) has a favored location with golden beaches, capped by twin peaks at either end, and with a cute little island in the center. A delightful beachfront promenade runs the length of the bay, with an charismatic Old Town at one end and a smart shopping district in the center. With a romantic setting, a soaring statue of Christ gazing over the city, and a late-night lively Old Town, San Sebastián has a mini Rio de Janeiro aura. Though the actual "sightseeing" isn't much, the scenic city itself provides a pleasant introduction to Spain's Basque Country. And as a culinary capital of Spain — with many local restaurants getting international attention — competition is tight to dish up some of the top tapas anywhere.
+  </p>
+
+</div>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <input type="text" placeholder="Search..">
+</div>
+
+<div id="Food" class="tabcontent">
+  <h3>Food</h3>
+  <img src="gazpacho.jpg">
+  <img src="food1.jpg">
+  <img src="food2.jpg">
+  <img src="sangria.jpg"style="width:200px;height:200px;">
+  <p>The reddest, ripest tomatoes, olive oil, garlic, bread, peppers and cucumber are blended until silky smooth, then chilled and poured into bowls or glasses. So delicious, so refreshing. In Andalucía in southern Spain, people have it every day in summer and there is always a jug on the counter in tapas bars. Also try salmorejo from Córdoba, a thicker version that is often served with pieces of Ibérico ham on the top.
+  </p>
+  <p>Eggs, potatoes, onions… that’s it – and some purists even consider that adding onion is a gastronomic crime of the highest order. The Spanish omelette is so much more than the sum of its parts. The potatoes and onions are slow fried in olive oil then mixed with the beaten eggs for the flavours to mix before cooking.  Add chorizo, ham, spinach, courgettes or whatever you have to hand to make a tasty meal out of next to nothing.
+  </p>
+  <p>Perhaps the most ubiquitous of tapas, patatas bravas vary quite a bit around the country, but all versions involve chunks of fried potato. In Madrid, bravas sauce is made with sweet and spicy pimentón – Spanish paprika – olive oil, flour and stock – but never tomatoes. Some people add garlic, some a dash of fino sherry, while others selfishly insist of keeping their secret ingredients to themselves.
+  </p>
+  <p> A punch, the sangria traditionally consists of red wine and chopped fruit, often with other ingredients such as orange juice or brandy.
+  </p>
+</div>
+
+<div id="Activities" class="tabcontent">
+  <h3>Activities</h3>
+  <img src="dance1.jpg">
+  <img src="moo.jpg">
+  <p>Feel the passion of the flamenco at Barcelona's legendary Tablao Cordobes, where some of the greatest names in flamenco have performed. Entertained by an internationally renowned flamenco group, you'll discover why the traditional dance of Spain is so popular. You'll also have the option of dining on a traditional buffet meal or simply ordering a drink to enjoy while watching the show
+  </p>
+  <p>Visit La Sagrada Familia in Barcelona on a 1.5-hour skip-the-line tour! With a knowledgeable local guide, head straight past the cathedral’s long entrance lines to learn all about the UNESCO-listed cathedral and its charismatic creator: Antoni Gaudi. After exploring the monument, visit the onsite La Sagrada Familia Museum to see an array of cathedral artifacts
+  </p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+</body>
+</html>
