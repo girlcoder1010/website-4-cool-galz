@@ -1,1 +1,1 @@
-# website-4-cool-galz
+# This website was made to showcase my favorite vacation spot--Spain
